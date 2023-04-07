@@ -1,2 +1,2 @@
 # COMP605
-Parallel Computing
+Scientific Computing, Parallel Computing
