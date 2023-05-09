@@ -1,0 +1,172 @@
+batch.hellompi: running hellompi test...
+batch.hellompi: running 32 processes from node14
+batch.hellompi: cat-ing PBS nodes file:
+LOCATION== /home/605/keller/assign5/MonteCarlo
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node14
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+application output follows...
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node14
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 1 of 1 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+*** WARNING: Probe of max pinnable memory completed in 16.1319s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+number of porcesses: 1 myRank: 0
+total number of tosses: 78594
+Estimation of Pi = 3.14376
+finished computation at Thu May  4 15:36:36 2023
+elapsed time: 0.00390589s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node14
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 1 of 1 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+*** WARNING: Probe of max pinnable memory completed in 15.6766s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+number of porcesses: 1 myRank: 0
+total number of tosses: 785718
+Estimation of Pi = 3.14287
+finished computation at Thu May  4 15:36:54 2023
+elapsed time: 0.0370412s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node14
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 1 of 1 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+*** WARNING: Probe of max pinnable memory completed in 15.9536s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+number of porcesses: 1 myRank: 0
+total number of tosses: 7855640
+Estimation of Pi = 3.14226
+finished computation at Thu May  4 15:37:13 2023
+elapsed time: 0.360942s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node14
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 1 of 1 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+*** WARNING: Probe of max pinnable memory completed in 15.5834s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+number of porcesses: 1 myRank: 0
+total number of tosses: 78543621
+Estimation of Pi = 3.14174
+finished computation at Thu May  4 15:37:34 2023
+elapsed time: 3.60115s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node14
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 1 of 1 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+*** WARNING: Probe of max pinnable memory completed in 15.895s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+number of porcesses: 1 myRank: 0
+total number of tosses: 785394053
+Estimation of Pi = 3.14158
+finished computation at Thu May  4 15:38:28 2023
+elapsed time: 36.0077s

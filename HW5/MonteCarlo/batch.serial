@@ -1,0 +1,40 @@
+#!/bin/sh
+# batch.hello -- this example "serial" batch script requests 
+# runs 2 processes on a single "mpi" node...
+# here, the "mpirun" command is a helper to fan-out the 2 processes
+# this script runs on an allocated node and mpirun fans out the
+# application threads to a "list" of allocated nodes...
+
+# for more info on requesting specific node resources see
+# "man pbs_resources"
+
+# to be submitted via the qsub command,
+# as in, "qsub batch.hello"
+
+# the following are pbs/torque batch directives:
+#PBS -V
+#PBS -l nodes=1:ppn=16:mpi
+#PBS -N monteCarloSerial
+#PBS -j oe
+#PBS -q batch
+
+# the following commands are run on a select node:
+cd $PBS_O_WORKDIR
+echo "batch.hello: running hello-test..."
+NCORES=`wc -w < $PBS_NODEFILE`
+HOST=`hostname`
+echo "batch.hello: running $NCORES processes from $HOST" 
+echo "batch.hello: cat-ing PBS nodes file:"
+cat $PBS_NODEFILE
+echo "application output follows..."
+echo "-------------------------------------------------------------"
+mpirun -np 1 -machinefile $PBS_NODEFILE ./mainS 5
+
+mpirun -np 1 -machinefile $PBS_NODEFILE ./mainS 6
+
+mpirun -np 1 -machinefile $PBS_NODEFILE ./mainS 7
+
+mpirun -np 1 -machinefile $PBS_NODEFILE ./mainS 8
+
+mpirun -np 1 -machinefile $PBS_NODEFILE ./mainS 9
+

@@ -1,0 +1,166 @@
+batch.hellompi: running hellompi test...
+batch.hellompi: running 16 processes from node13
+batch.hellompi: cat-ing PBS nodes file:
+LOCATION== /home/605/keller/assign5/MergeSort
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+application output follows...
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node13
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 8 of 8 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+[node13:591768] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[node13:591768] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+*** WARNING: Probe of max pinnable memory completed in 14.299s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+Array is: 
+72 83 112 168 274 290 299 301 326 383 383 440 541 575 610 665 675 677 719 746 765 777 777 788 871 886 886 899 915 915 985 985 
+
+finished computation at Thu May  4 14:48:40 2023
+elapsed time: 4.6539e-05s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node13
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 8 of 8 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+[node13:591832] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[node13:591832] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+*** WARNING: Probe of max pinnable memory completed in 14.1628s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+Array is: 
+25 43 61 72 72 83 97 112 168 274 276 277 285 286 290 299 301 308 325 326 335 335 363 363 376 383 383 386 386 425 440 443 492 492 498 537 541 575 586 610 632 649 665 675 677 719 746 765 777 777 788 793 793 864 871 886 886 899 915 915 920 940 985 985 
+
+finished computation at Thu May  4 14:48:57 2023
+elapsed time: 5.1638e-05s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node13
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 8 of 8 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+[node13:591905] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[node13:591905] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+*** WARNING: Probe of max pinnable memory completed in 14.0789s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+Array is: 
+2 20 25 26 27 27 28 37 43 49 59 59 61 72 72 73 83 93 93 97 112 149 153 168 179 198 264 274 276 277 285 286 290 299 301 308 315 321 323 325 326 331 335 335 342 362 362 363 363 376 381 383 383 385 386 386 393 403 410 414 421 421 425 440 443 492 492 498 526 537 541 544 575 586 600 602 605 610 616 627 632 649 649 649 665 675 677 690 690 714 719 720 739 745 746 763 763 765 777 777 778 788 793 793 801 841 842 848 858 860 864 865 871 886 886 899 915 915 920 924 926 926 935 940 954 964 985 985 
+
+finished computation at Thu May  4 14:49:13 2023
+elapsed time: 4.878e-05s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node13
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 8 of 8 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+[node13:591968] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[node13:591968] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+*** WARNING: Probe of max pinnable memory completed in 14.6341s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+Array is: 
+2 2 5 11 13 20 20 23 25 26 27 27 28 28 37 43 49 52 59 59 61 63 67 67 72 72 73 83 92 93 93 97 112 123 123 135 135 142 149 149 153 168 172 172 178 179 189 198 201 210 211 211 213 214 226 230 257 258 264 264 270 273 274 276 277 279 285 286 290 296 299 301 308 315 315 321 322 323 325 326 331 331 335 335 342 346 362 362 363 363 367 368 368 373 373 376 381 383 383 383 385 386 386 391 392 393 400 401 403 410 414 414 421 421 425 426 426 429 429 438 440 443 450 454 455 460 468 486 492 492 498 504 504 515 526 530 530 537 540 540 540 541 544 557 567 567 569 570 572 573 575 575 586 586 600 602 604 605 610 616 620 622 627 630 630 632 647 649 649 649 654 665 675 677 679 690 690 714 717 718 719 720 720 727 730 736 736 736 739 745 746 746 749 763 763 765 767 773 777 777 778 782 782 788 788 793 793 798 801 802 802 820 828 841 842 848 858 860 862 862 864 865 871 873 882 884 885 886 886 895 899 902 915 915 920 924 926 926 929 929 934 935 937 940 941 944 951 954 961 963 964 967 968 975 985 985 
+
+finished computation at Thu May  4 14:49:31 2023
+elapsed time: 5.1033e-05s
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   node13
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+*** WARNING: ODP disabled on 8 of 8 processes which are missing support.
+         To suppress this message set environment variable
+         GASNET_ODP_VERBOSE=0 or reconfigure with --disable-ibv-odp
+         (see ibv-conduit's README for more information).
+         To see additional details set environment variable
+         GASNET_ODP_VERBOSE=2 (or higher).
+
+*** WARNING: Beginning a potentially slow probe of max pinnable memory...
+[node13:592035] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[node13:592035] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+*** WARNING: Probe of max pinnable memory completed in 14.2159s.
+*** WARNING: Probe of max pinnable memory has yielded '41 GB'.
+    WARNING: If you have the same memory configuration on all nodes, then
+    WARNING: to avoid this probe in the future either reconfigure using
+    WARNING:    --with-ibv-physmem-max='41 GB'
+    WARNING: or run with environment variable
+    WARNING:    GASNET_PHYSMEM_MAX='41 GB'.
+*** WARNING: For more information see "Slow PHYSMEM probe at start-up" in ibv-conduit's README.
+Array is: 
+1 2 2 5 6 6 10 11 11 11 13 20 20 22 22 23 25 26 27 27 28 28 37 37 37 42 42 42 43 47 48 48 49 52 58 58 59 59 61 63 66 67 67 68 69 69 71 72 72 73 76 78 83 84 84 84 87 90 91 91 92 93 93 93 94 97 98 104 112 112 116 123 123 127 128 135 135 136 142 145 148 149 149 152 153 161 167 167 167 168 169 170 170 172 172 175 178 179 186 186 189 189 196 198 198 198 199 201 201 201 210 211 211 213 213 214 221 222 222 226 229 229 230 234 235 247 256 257 258 260 264 264 270 273 274 275 276 277 279 281 281 281 285 285 286 286 290 290 293 296 299 300 301 304 305 305 308 308 309 315 315 315 315 316 321 322 323 323 324 324 325 326 327 327 331 331 335 335 342 343 346 357 361 362 362 363 363 365 367 368 368 370 370 373 373 373 373 376 377 381 383 383 383 385 386 386 386 391 392 393 393 393 397 398 399 400 401 403 410 413 413 413 414 414 421 421 421 421 425 426 426 427 429 429 435 437 438 440 443 445 450 453 454 455 456 456 459 460 461 466 468 472 472 473 482 482 486 492 492 495 498 498 504 504 505 506 508 508 515 521 526 526 526 530 530 530 531 537 537 537 540 540 540 541 543 544 552 553 556 556 557 559 561 566 567 567 567 569 570 571 572 572 573 575 575 578 580 585 586 586 587 598 600 602 604 605 605 607 610 615 616 616 619 620 620 622 623 624 627 629 630 630 632 641 641 644 647 649 649 649 652 654 665 665 673 675 677 677 679 680 690 690 694 694 695 699 714 716 717 718 719 720 720 723 724 727 730 731 736 736 736 737 739 744 745 746 746 749 754 754 760 763 763 765 767 773 773 773 776 777 777 778 782 782 782 784 784 788 788 789 793 793 794 798 799 801 802 802 802 806 820 821 822 828 829 836 837 841 842 842 844 848 855 858 860 862 862 862 862 864 865 865 871 871 872 873 873 873 879 882 884 885 885 886 886 888 893 895 897 897 899 902 904 906 907 912 914 915 915 915 919 919 919 920 922 924 925 925 926 926 928 929 929 934 935 935 937 940 940 941 942 944 947 947 948 951 953 954 956 956 958 961 962 963 964 965 966 967 968 974 975 980 980 983 985 985 988 989 992 996 996 997 
+
+finished computation at Thu May  4 14:49:48 2023
+elapsed time: 5.639e-05s

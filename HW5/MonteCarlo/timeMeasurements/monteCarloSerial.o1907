@@ -1,0 +1,36 @@
+batch.hello: running hello-test...
+batch.hello: running 16 processes from node13
+batch.hello: cat-ing PBS nodes file:
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+node13
+application output follows...
+-------------------------------------------------------------
+number in circle = 78478
+Estimation of Pi = 3.13912
+2.544ms
+number in circle = 784979
+Estimation of Pi = 3.13992
+26.28ms
+number in circle = 7852148
+Estimation of Pi = 3.14086
+243.032ms
+number in circle = 78539998
+Estimation of Pi = 3.1416
+2438.87ms
+number in circle = 785380416
+Estimation of Pi = 3.14152
+24292.7ms
